@@ -12,6 +12,9 @@ A real-time collaborative code editor built with React, Monaco Editor, Yjs, and 
 - **Dockerized**: Includes a multi-stage Dockerfile for easy deployment.
 
 ## Screen Shot
+<img width="1440" height="872" alt="Screenshot 2026-07-07 at 9 09 05 PM" src="https://github.com/user-attachments/assets/e5d087e0-9490-45ce-ac88-507ef978cb4d" />
+<img width="1440" height="872" alt="Screenshot 2026-07-07 at 9 08 54 PM" src="https://github.com/user-attachments/assets/a187b876-1434-4c67-b756-97165f214498" />
+
 
 
 ## Tech Stack
