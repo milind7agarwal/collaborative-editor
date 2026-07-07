@@ -20,7 +20,7 @@ function App() {
   const yText = useMemo(() => ydoc.getText("monaco"), [ ydoc ])
   
   const provider = useMemo(() => {
-    const backendUrl = "/";
+    const backendUrl = "";
     return new SocketIOProvider(backendUrl, "monaco", ydoc, { autoConnect: false });
   }, [ydoc]);
 

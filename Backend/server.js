@@ -2,6 +2,7 @@ import express from 'express';
 import {createServer} from 'http';
 import {Server} from 'socket.io';
 import { YSocketIO } from "y-socket.io/dist/server"
+import path from 'path';
 
 const app = express();
 app.use(express.static('public'))
@@ -23,7 +24,13 @@ app.get('/health', (req, res) => {
         success: true
     })
 })
-httpServer.listen(3000, () => {
-    console.log("Server is running on port 3000")
+
+app.get('*', (req, res) => {
+    res.sendFile(path.resolve('public', 'index.html'));
+})
+
+const PORT = process.env.PORT || 3000;
+httpServer.listen(PORT, '0.0.0.0', () => {
+    console.log(`Server is running on port ${PORT}`)
 })
 
