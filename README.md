@@ -1,5 +1,5 @@
-# Collaborative Editor
-(http://collaborative-editor-alb-1960725216.ap-south-1.elb.amazonaws.com)
+# Collaborative Editor(http://collaborative-editor-alb-1960725216.ap-south-1.elb.amazonaws.com)
+
 A real-time collaborative code editor built with React, Monaco Editor, Yjs, and Socket.IO.
 
 ## Features
