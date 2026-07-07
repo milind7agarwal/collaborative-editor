@@ -1,5 +1,5 @@
 # Collaborative Editor
-
+(http://collaborative-editor-alb-1960725216.ap-south-1.elb.amazonaws.com)
 A real-time collaborative code editor built with React, Monaco Editor, Yjs, and Socket.IO.
 
 ## Features
@@ -10,6 +10,9 @@ A real-time collaborative code editor built with React, Monaco Editor, Yjs, and 
 - **Modern Frontend**: Built with React 19, Vite, and TailwindCSS 4.
 - **Backend Server**: Node.js and Express backend using Socket.IO for WebSocket communication.
 - **Dockerized**: Includes a multi-stage Dockerfile for easy deployment.
+
+## Screen Shot
+
 
 ## Tech Stack
 
