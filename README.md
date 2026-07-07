@@ -73,5 +73,4 @@ docker run -p 3000:3000 collaborative-editor
 
 - `frontend/`: Contains the React + Vite application.
 - `Backend/`: Contains the Node.js Express server and Socket.IO setup.
-- `TODO.md`: Pending tasks and improvements for the project.
 - `dockerfile`: Multi-stage Docker setup.
